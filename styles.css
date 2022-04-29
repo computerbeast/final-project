@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: large;
+}
+
+body{
+    background-color:rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    justify-content: center;
+    }
+
+header{
+    background-color: black;
+    color: aliceblue;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+#map{
+    position: absolute;
+    top: 9%;
+    left: 23%;
+    right: 13%;
+    
+}
+
+.city{
+    border-radius: 100%;
+    background-color: rgb(56, 55, 55);
+    color: aliceblue;
+    width: 2.5em;
+    height: 2.5em;
+    text-align: center;
+    
+
+}
+
+#tallinn{
+    position: absolute;
+    left: 30%;
+    bottom: 75%;
+}
+
+#tartu{
+    position: absolute;
+    left: 60%;
+    bottom: 42%;
+}
+
+#parnu{
+    position: absolute;
+    left: 30%;
+    bottom: 45%;
+}
