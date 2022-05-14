@@ -41,12 +41,12 @@ header{
 #tallinn{
     position: absolute;
     left: 30%;
-    bottom: 75%;
+    bottom: 80%;
 }
 
 #tartu{
     position: absolute;
-    left: 60%;
+    left: 57%;
     bottom: 42%;
 }
 
@@ -59,5 +59,35 @@ header{
 #narva{
     position: absolute;
     left: 70%;
+    bottom: 75%;
+}
+
+#võru{
+    position: absolute;
+    left: 63%;
+    bottom: 20%;
+}
+
+#saaremaa{
+    position: absolute;
+    left: 5%;
+    bottom: 40%;
+}
+
+#hiiumaa{
+    position: absolute;
+    left: 7%;
+    bottom: 60%;
+}
+
+#paide{
+    position: absolute;
+    left: 44%;
+    bottom: 59%;
+}
+
+#rakvere{
+    position: absolute;
+    left: 55%;
     bottom: 75%;
 }
