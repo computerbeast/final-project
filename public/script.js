@@ -21,3 +21,5 @@ getWeather("narva");
 getWeather("kuressaare");
 getWeather("voru");
 getWeather("paide");
+getWeather("kardla");
+getWeather("rakvere");
