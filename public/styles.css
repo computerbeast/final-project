@@ -3,6 +3,7 @@
     padding: 0;
     border: 0;
     outline: 0;
+
     font-family:Arial, Helvetica, sans-serif;
 }
 
@@ -26,6 +27,7 @@ header{
     top: 9%;
     left: 23%;
     right: 13%;
+
 }
 
 .city{
@@ -35,7 +37,8 @@ header{
     text-align: center;
     font-size:1.6vw;
     font-weight: 900;
-}
+ }
+
 
 #tallinn{
     position: absolute;
@@ -45,14 +48,14 @@ header{
 
 #tartu{
     position: absolute;
-    left: 55%;
-    bottom: 45%;
+    left: 57%;
+    bottom: 42%;
 }
 
 #parnu{
     position: absolute;
     left: 30%;
-    bottom: 43%;
+    bottom: 45%;
 }
 
 #narva{
@@ -61,20 +64,32 @@ header{
     bottom: 75%;
 }
 
-#kuressaare{
-    position: absolute;
-    left: 7%;
-    bottom: 45%;
-}
-
 #voru{
     position: absolute;
-    left: 60%;
+    left: 63%;
     bottom: 20%;
+}
+
+#kuressaare{
+    position: absolute;
+    left: 5%;
+    bottom: 40%;
+}
+
+#kardla{
+    position: absolute;
+    left: 9%;
+    bottom: 68%;
 }
 
 #paide{
     position: absolute;
-    left: 45%;
-    bottom: 62%;
+    left: 44%;
+    bottom: 59%;
+}
+
+#rakvere{
+    position: absolute;
+    left: 53%;
+    bottom: 85%;
 }
