@@ -3,20 +3,25 @@
     padding: 0;
     border: 0;
     outline: 0;
-    font-size: large;
+    font-family:Arial, Helvetica, sans-serif;
+}
+p{
+    
 }
 
 body{
-    background-color:rgb(255, 255, 255);
+    background: linear-gradient(rgb(160, 211, 253), white);
     color: rgb(0, 0, 0);
     justify-content: center;
+    min-height: 100vh;
     }
 
 header{
-    background-color: black;
+    background-color: rgb(70, 70, 70);
     color: aliceblue;
     padding-top: 1%;
     padding-bottom: 1%;
+    padding-left: 1%;
 }
 
 #map{
@@ -24,18 +29,15 @@ header{
     top: 9%;
     left: 23%;
     right: 13%;
-    
 }
 
 .city{
-    border-radius: 100%;
-    background-color: rgb(56, 55, 55);
-    color: aliceblue;
-    width: 2.5em;
-    height: 2.5em;
+    color: rgb(0, 0, 0);
+    width: 8%;
+    height: 4%;
     text-align: center;
-    
-
+    font-size:1.6vw;
+    font-weight: 900;
 }
 
 #tallinn{
@@ -46,14 +48,14 @@ header{
 
 #tartu{
     position: absolute;
-    left: 57%;
-    bottom: 42%;
+    left: 55%;
+    bottom: 45%;
 }
 
 #parnu{
     position: absolute;
     left: 30%;
-    bottom: 45%;
+    bottom: 43%;
 }
 
 #narva{
@@ -62,32 +64,20 @@ header{
     bottom: 75%;
 }
 
-#võru{
-    position: absolute;
-    left: 63%;
-    bottom: 20%;
-}
-
 #kuressaare{
     position: absolute;
-    left: 5%;
-    bottom: 40%;
+    left: 7%;
+    bottom: 45%;
 }
 
-#kärdla{
+#voru{
     position: absolute;
-    left: 7%;
-    bottom: 60%;
+    left: 60%;
+    bottom: 20%;
 }
 
 #paide{
     position: absolute;
-    left: 44%;
-    bottom: 59%;
-}
-
-#rakvere{
-    position: absolute;
-    left: 55%;
-    bottom: 75%;
+    left: 45%;
+    bottom: 62%;
 }
