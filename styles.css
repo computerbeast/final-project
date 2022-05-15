@@ -7,7 +7,7 @@
 }
 
 body{
-    background-color:rgb(255, 255, 255);
+    background-color:rgb(106, 173, 228);
     color: rgb(0, 0, 0);
     justify-content: center;
     }
@@ -28,9 +28,8 @@ header{
 }
 
 .city{
-    border-radius: 100%;
-    background-color: rgb(56, 55, 55);
-    color: aliceblue;
+
+    color: rgb(2, 8, 14);
     width: 2.5em;
     height: 2.5em;
     text-align: center;
