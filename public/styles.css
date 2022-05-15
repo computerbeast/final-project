@@ -3,20 +3,23 @@
     padding: 0;
     border: 0;
     outline: 0;
-    font-size: large;
+
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 body{
-    background-color:rgb(106, 173, 228);
+    background: linear-gradient(rgb(160, 211, 253), white);
     color: rgb(0, 0, 0);
     justify-content: center;
+    min-height: 100vh;
     }
 
 header{
-    background-color: black;
+    background-color: rgb(70, 70, 70);
     color: aliceblue;
     padding-top: 1%;
     padding-bottom: 1%;
+    padding-left: 1%;
 }
 
 #map{
@@ -24,18 +27,18 @@ header{
     top: 9%;
     left: 23%;
     right: 13%;
-    
+
 }
 
 .city{
-
-    color: rgb(2, 8, 14);
-    width: 2.5em;
-    height: 2.5em;
+    color: rgb(0, 0, 0);
+    width: 8%;
+    height: 4%;
     text-align: center;
-    
+    font-size:1.6vw;
+    font-weight: 900;
+ }
 
-}
 
 #tallinn{
     position: absolute;
@@ -61,7 +64,7 @@ header{
     bottom: 75%;
 }
 
-#võru{
+#voru{
     position: absolute;
     left: 63%;
     bottom: 20%;
@@ -73,7 +76,7 @@ header{
     bottom: 40%;
 }
 
-#kärdla{
+#kardla{
     position: absolute;
     left: 9%;
     bottom: 68%;
