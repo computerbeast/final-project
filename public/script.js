@@ -5,8 +5,12 @@ const getWeather = async (city) =>{
         const res = await fetch(url);
         const data = await res.json();
 
-        document.querySelector("#"+city+"Weather").innerText = `${data.main.temp}°C`
-        
+        document.querySelector("#"+city+"Weather").innerText = `${data.main.temp}°C`;
+
+        weatherIcon = data['weather'][0]['icon'];
+
+        document.querySelector("#"+city+"Icon").src = "http://openweathermap.org/img/wn/"+weatherIcon+".png";
+
     }
     catch (error) {
         return error;

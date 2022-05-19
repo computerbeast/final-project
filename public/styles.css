@@ -5,6 +5,7 @@
     outline: 0;
 
     font-family:Arial, Helvetica, sans-serif;
+    
 }
 
 body{
@@ -26,17 +27,23 @@ header{
     position: absolute;
     top: 9%;
     left: 23%;
-    right: 13%;
-
+    right: 13%;  
 }
 
 .city{
     color: rgb(0, 0, 0);
     width: 8%;
     height: 4%;
-    text-align: center;
     font-size:1.6vw;
     font-weight: 900;
+ }
+ .container{
+     display: inline-flex;
+ }
+
+ .icon{
+     height: 2.5em;
+     max-height: 60px;
  }
 
 
